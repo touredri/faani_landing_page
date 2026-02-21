@@ -297,14 +297,27 @@
         /* Responsive phone mockups */
         @media (max-width: 1024px) {
             .phone-mockup {
-                max-width: 240px;
+                max-width: 220px;
             }
         }
         
         @media (max-width: 768px) {
             .phone-mockup {
-                max-width: 200px;
+                max-width: 180px;
             }
+            
+            .phone-showcase .flex {
+                flex-wrap: wrap;
+            }
+        }
+        
+        /* Enhanced text shadows for better visibility */
+        .drop-shadow-lg {
+            filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+        }
+        
+        .drop-shadow-md {
+            filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.4));
         }
         
         .text-gradient {
@@ -321,9 +334,9 @@
         <div class="container mx-auto px-6 py-4">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center space-x-2">
-                        <i class="fas fa-tshirt text-3xl text-[#F3755F]"></i>
-                        <span class="text-2xl font-bold text-gradient">Faani</span>
-                    </div>
+                    <img src="assets/logo.png" alt="Faani Logo" class="w-8 h-8 sm:w-10 sm:h-10">
+                    <span class="text-lg sm:text-xl font-bold">Faani</span>
+                </div>
                     <div class="hidden md:flex space-x-8">
                         <a href="#features" class="text-gray-700 hover:text-[#F3755F] transition relative group">
                             Features
@@ -369,9 +382,9 @@
     <section class="gradient-bg african-pattern min-h-screen flex items-center pt-20">
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div class="text-white slide-in-left">
-                    <h1 class="hero-title text-5xl md:text-6xl font-bold mb-6">Faani - Connect with African Fashion Tailors</h1>
-                    <p class="text-xl md:text-2xl mb-8 opacity-90">
+                <div class="text-white slide-in-left drop-shadow-lg">
+                    <h1 class="hero-title text-5xl md:text-6xl font-bold mb-6 drop-shadow-lg">Faani - Connect with African Fashion Tailors</h1>
+                    <p class="text-xl md:text-2xl mb-8 opacity-95 drop-shadow-md">
                     Faani is the premier mobile platform connecting African fashion enthusiasts with skilled tailors. 
                     Browse traditional and modern designs, get custom measurements, manage orders, and support local artisans.
                 </p>
@@ -492,7 +505,7 @@
             </div>
 
             <div class="phone-showcase">
-                <div class="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12">
+                <div class="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-8">
                     <!-- Phone 1 - Home Screen -->
                     <div class="phone-mockup relative">
                         <div class="phone-frame bg-gray-900 rounded-3xl p-2 shadow-2xl">
@@ -505,38 +518,8 @@
                                         <i class="fas fa-battery-full"></i>
                                     </div>
                                 </div>
-                                <div class="app-content p-4">
-                                    <div class="flex items-center justify-between mb-6">
-                                        <div class="flex items-center space-x-2">
-                                            <i class="fas fa-tshirt text-[#F3755F] text-xl"></i>
-                                            <span class="font-bold text-lg">Faani</span>
-                                        </div>
-                                        <i class="fas fa-bell text-gray-600"></i>
-                                    </div>
-                                    
-                                    <div class="bg-gradient-to-r from-[#F3755F] to-[#E85D4C] rounded-xl p-4 text-white mb-4">
-                                        <h3 class="font-bold text-lg mb-2">Welcome to Faani</h3>
-                                        <p class="text-sm opacity-90">Connect with African fashion tailors</p>
-                                    </div>
-                                    
-                                    <div class="grid grid-cols-2 gap-3">
-                                        <div class="bg-[#FFF5F4] rounded-lg p-3">
-                                            <i class="fas fa-search text-[#F3755F] mb-2"></i>
-                                            <p class="text-xs font-semibold">Browse</p>
-                                        </div>
-                                        <div class="bg-[#FFF5F4] rounded-lg p-3">
-                                            <i class="fas fa-ruler text-[#F3755F] mb-2"></i>
-                                            <p class="text-xs font-semibold">Measure</p>
-                                        </div>
-                                        <div class="bg-[#FFF5F4] rounded-lg p-3">
-                                            <i class="fas fa-shopping-bag text-[#F3755F] mb-2"></i>
-                                            <p class="text-xs font-semibold">Orders</p>
-                                        </div>
-                                        <div class="bg-[#FFF5F4] rounded-lg p-3">
-                                            <i class="fas fa-user text-[#F3755F] mb-2"></i>
-                                            <p class="text-xs font-semibold">Profile</p>
-                                        </div>
-                                    </div>
+                                <div class="app-content p-0">
+                                    <img src="assets/home.jpeg" alt="Faani Home Screen" class="w-full h-full object-cover">
                                 </div>
                             </div>
                         </div>
@@ -555,42 +538,15 @@
                                         <i class="fas fa-battery-full"></i>
                                     </div>
                                 </div>
-                                <div class="app-content p-4">
-                                    <div class="flex items-center justify-between mb-4">
-                                        <i class="fas fa-arrow-left text-gray-600"></i>
-                                        <span class="font-bold">Models</span>
-                                        <i class="fas fa-filter text-gray-600"></i>
-                                    </div>
-                                    
-                                    <div class="flex gap-2 mb-4">
-                                        <span class="bg-[#F3755F] text-white px-3 py-1 rounded-full text-xs">All</span>
-                                        <span class="bg-gray-200 px-3 py-1 rounded-full text-xs">Traditional</span>
-                                        <span class="bg-gray-200 px-3 py-1 rounded-full text-xs">Modern</span>
-                                    </div>
-                                    
-                                    <div class="grid grid-cols-2 gap-2">
-                                        <div class="bg-gray-100 rounded-lg overflow-hidden">
-                                            <div class="bg-[#F3755F] h-20"></div>
-                                            <div class="p-2">
-                                                <p class="text-xs font-semibold">Ankara</p>
-                                                <p class="text-xs text-gray-500">₦15,000</p>
-                                            </div>
-                                        </div>
-                                        <div class="bg-gray-100 rounded-lg overflow-hidden">
-                                            <div class="bg-[#E85D4C] h-20"></div>
-                                            <div class="p-2">
-                                                <p class="text-xs font-semibold">Dashiki</p>
-                                                <p class="text-xs text-gray-500">₦12,000</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="app-content p-0">
+                                    <img src="assets/favorite.jpeg" alt="Faani Model Gallery" class="w-full h-full object-cover">
                                 </div>
                             </div>
                         </div>
                         <p class="text-center mt-4 text-gray-600 font-medium">Model Gallery</p>
                     </div>
 
-                    <!-- Phone 3 - Tailor Profile -->
+                    <!-- Phone 3 - Measurement Feature -->
                     <div class="phone-mockup relative">
                         <div class="phone-frame bg-gray-900 rounded-3xl p-2 shadow-2xl">
                             <div class="phone-screen bg-white rounded-2xl overflow-hidden">
@@ -602,34 +558,32 @@
                                         <i class="fas fa-battery-full"></i>
                                     </div>
                                 </div>
-                                <div class="app-content p-4">
-                                    <div class="flex items-center justify-between mb-4">
-                                        <i class="fas fa-arrow-left text-gray-600"></i>
-                                        <span class="font-bold">Tailor Profile</span>
-                                        <i class="fas fa-heart text-gray-600"></i>
-                                    </div>
-                                    
-                                    <div class="text-center mb-4">
-                                        <div class="w-16 h-16 bg-[#F3755F] rounded-full mx-auto mb-2"></div>
-                                        <h3 class="font-bold">Chidi Adeyemi</h3>
-                                        <p class="text-xs text-gray-500">⭐ 4.9 (127 reviews)</p>
-                                    </div>
-                                    
-                                    <div class="bg-[#FFF5F4] rounded-lg p-3 mb-3">
-                                        <p class="text-xs font-semibold mb-1">Specialties</p>
-                                        <div class="flex flex-wrap gap-1">
-                                            <span class="bg-white px-2 py-1 rounded text-xs">Ankara</span>
-                                            <span class="bg-white px-2 py-1 rounded text-xs">Agbada</span>
-                                        </div>
-                                    </div>
-                                    
-                                    <button class="w-full bg-[#F3755F] text-white rounded-lg py-2 text-sm font-semibold">
-                                        Contact Tailor
-                                    </button>
+                                <div class="app-content p-0">
+                                    <img src="assets/measure.jpeg" alt="Faani Measurement Feature" class="w-full h-full object-cover">
                                 </div>
                             </div>
                         </div>
-                        <p class="text-center mt-4 text-gray-600 font-medium">Tailor Profile</p>
+                        <p class="text-center mt-4 text-gray-600 font-medium">Smart Measurements</p>
+                    </div>
+                    
+                    <!-- Phone 4 - Order Management -->
+                    <div class="phone-mockup relative">
+                        <div class="phone-frame bg-gray-900 rounded-3xl p-2 shadow-2xl">
+                            <div class="phone-screen bg-white rounded-2xl overflow-hidden">
+                                <div class="status-bar bg-gray-900 text-white px-4 py-1 text-xs flex justify-between">
+                                    <span>9:41</span>
+                                    <div class="flex gap-1">
+                                        <i class="fas fa-signal"></i>
+                                        <i class="fas fa-wifi"></i>
+                                        <i class="fas fa-battery-full"></i>
+                                    </div>
+                                </div>
+                                <div class="app-content p-0">
+                                    <img src="assets/order.jpeg" alt="Faani Order Management" class="w-full h-full object-cover">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center mt-4 text-gray-600 font-medium">Order Tracking</p>
                     </div>
                 </div>
             </div>
@@ -1136,10 +1090,10 @@
     <!-- CTA Section -->
     <section class="gradient-bg african-pattern py-20">
         <div class="container mx-auto px-6 text-center">
-            <h2 class="text-4xl font-bold text-white mb-6">
+            <h2 class="text-4xl font-bold text-white mb-6 drop-shadow-lg">
                 Ready to Transform Your African Fashion Experience?
             </h2>
-            <p class="text-xl text-[#FFE8E5] mb-8 max-w-2xl mx-auto">
+            <p class="text-xl text-[#FFE8E5] mb-8 max-w-2xl mx-auto drop-shadow-md">
                 Join thousands of satisfied clients and successful tailors on the Faani platform. 
                 Download the app today and discover the future of African fashion.
             </p>
@@ -1159,8 +1113,8 @@
         <div class="container mx-auto px-6">
             <div class="grid footer-grid md:grid-cols-4 gap-6 sm:gap-8">
                 <div>
-                    <div class="flex items-center space-x-2 mb-4">
-                        <i class="fas fa-tshirt text-xl sm:text-2xl text-[#F3755F]"></i>
+                    <div class="flex items-center space-x-2">
+                        <img src="assets/logo.png" alt="Faani Logo" class="w-8 h-8 sm:w-10 sm:h-10">
                         <span class="text-lg sm:text-xl font-bold">Faani</span>
                     </div>
                     <p class="text-gray-400 text-sm sm:text-base mb-4">
