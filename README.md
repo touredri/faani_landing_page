@@ -1,174 +1,79 @@
-# Faani - African Fashion Platform Landing Page
+# Faani - Plateforme de Mode Africaine (Landing Page)
 
-## 🌟 Overview
+## 🌟 Vue d'ensemble
 
-Faani is a premier mobile platform connecting African fashion enthusiasts with skilled tailors worldwide. This landing page showcases the platform's features, benefits, and value proposition for both clients and tailors in the African fashion ecosystem.
+Faani est la plateforme mobile de référence connectant les passionnés de mode africaine avec des tailleurs qualifiés dans le monde entier. Cette landing page présente les fonctionnalités, les avantages et la proposition de valeur de la plateforme pour les clients et les tailleurs de l'écosystème de la mode africaine.
 
-## 🎯 Project Purpose
+## 🎯 Objectif du Projet
 
-The Faani landing page serves as the primary marketing and information hub for the mobile application, designed to:
+La landing page Faani sert de centre d'information et de marketing principal pour l'application mobile, conçue pour :
 
-- **Attract Users**: Convert visitors into app downloads and platform users
-- **Build Trust**: Showcase the platform's credibility through testimonials and features
-- **Explain Value**: Clearly communicate how Faani solves African fashion challenges
-- **Drive Engagement**: Encourage sign-ups for both clients and tailors
+- **Attirer les utilisateurs** : Convertir les visiteurs en téléchargements d'applications et en utilisateurs de la plateforme.
+- **Renforcer la confiance** : Présenter la crédibilité de la plateforme à travers des témoignages et des fonctionnalités.
+- **Expliquer la valeur** : Communiquer clairement comment Faani résout les défis de la mode africaine.
+- **Encourager l'engagement** : Inciter à l'inscription des clients et des tailleurs.
 
-## 🚀 Key Features
+## 🚀 Fonctionnalités Clés
 
-### Platform Capabilities
-- **Tailor-Client Connection**: Direct messaging and collaboration tools
-- **Smart Measurements**: Accurate digital measurement system
-- **Order Management**: Complete order tracking and management
-- **Model Gallery**: Extensive collection of African fashion designs
-- **Tailor Dashboard**: Business management tools for artisans
+### Capacités de la Plateforme
+- **Connexion Tailleur-Client** : Messagerie directe et outils de collaboration.
+- **Mesures Intelligentes** : Système de mesure numérique précis.
+- **Gestion des Commandes** : Suivi complet et gestion des commandes.
+- **Galerie de Modèles** : Vaste collection de designs de mode africaine.
+- **Tableau de Bord Tailleur** : Outils de gestion d'entreprise pour les artisans.
 
-### Landing Page Features
-- **Responsive Design**: Optimized for all devices (mobile, tablet, desktop)
-- **Interactive Elements**: Filterable model gallery, testimonial carousel
-- **Modern UI/UX**: Smooth animations, micro-interactions, and professional design
-- **SEO Optimized**: Structured for search engine visibility
-- **Accessibility**: WCAG compliant with reduced motion support
+### Caractéristiques de la Landing Page
+- **Design Responsif** : Optimisé pour tous les appareils (mobile, tablette, bureau).
+- **Éléments Interactifs** : Galerie de modèles filtrable, carrousel de témoignages.
+- **UI/UX Moderne** : Animations fluides, micro-interactions et design professionnel.
+- **Contenu en Français** : Entièrement traduit pour le marché francophone.
 
-## 🎨 Design System
+## 📱 Stack Technologique
 
-### Brand Colors
-- **Primary**: `#F3755F` (Coral Orange)
-- **Secondary**: `#E85D4C` (Darker Coral)
-- **Accent**: `#FFF5F4` (Light Coral Background)
-- **Neutral**: Gray scale for text and backgrounds
+- **HTML5** : Structure de balisage sémantique.
+- **Tailwind CSS** : Framework CSS utilitaire.
+- **Font Awesome** : Bibliothèque d'icônes.
+- **Vanilla JavaScript** : Fonctionnalités interactives.
 
-### Typography
-- Modern, clean fonts optimized for readability
-- Responsive text sizing across all breakpoints
-- High contrast for accessibility
+## 🌐 Déploiement
 
-### Components
-- Custom phone mockups showcasing app screens
-- Interactive filter system for model gallery
-- Auto-playing testimonial carousel with swipe support
-- Animated statistics counters
-- Hover effects and micro-interactions
+Le projet est configuré pour un déploiement sur Vercel.
 
-## 📱 Technology Stack
+## 📊 Conformité
 
-### Frontend
-- **HTML5**: Semantic markup structure
-- **Tailwind CSS**: Utility-first CSS framework
-- **Font Awesome**: Icon library
-- **Vanilla JavaScript**: Interactive functionality
+### ✅ Nom de l'App Cohérent
+- "Faani" est utilisé de manière cohérente sur toutes les plateformes.
 
-### Performance
-- **Lazy Loading**: Optimized image loading
-- **Intersection Observer**: Efficient scroll animations
-- **Responsive Images**: Optimized for different screen sizes
-- **Minified Assets**: Optimized for fast loading
+### ✅ Règles de Confidentialité
+- Lié aux règles de confidentialité complètes : [privacy.html](privacy.html)
+- Accessible depuis le footer.
 
-## 🌐 Deployment
+### ✅ Conditions d'Utilisation
+- Lié aux conditions d'utilisation : [terms.html](terms.html)
 
-### Vercel Configuration
-The project is configured for deployment on Vercel with:
-- Static site generation
-- Single-page application routing
-- Security headers
-- Optimized caching
-
-### Environment Setup
-1. Clone the repository
-2. Install dependencies (if any)
-3. Deploy to Vercel or any static hosting service
-
-## 📊 Google Cloud Compliance
-
-The landing page addresses all Google Cloud validation requirements:
-
-### ✅ App Name Consistency
-- "Faani" is consistently used across all platforms
-- OAuth consent screen matches landing page branding
-
-### ✅ Privacy Policy
-- Linked to comprehensive privacy policy: [Privacy Policy](https://www.freeprivacypolicy.com/live/9a1f28b1-1631-4ce2-b108-716476788cac)
-- Accessible from footer and navigation
-- Opens in new tab for user convenience
-
-### ✅ App Purpose Explanation
-- Clear description of Faani's mission and value proposition
-- Detailed explanation of platform features and benefits
-- Transparency about data usage and user protection
-
-## 🔧 Development
-
-### Local Development
-```bash
-# Using Node.js HTTP server
-npx http-server
-
-# Using Serve
-npx serve
-
-# Access at http://localhost:8000
-```
-
-### File Structure
+## 🔧 Structure des Fichiers
 ```
 faani-landing-page/
-├── index.html          # Main landing page
-├── vercel.json         # Vercel deployment config
-├── README.md          # Project documentation
-└── assets/            # Static assets (if needed)
+├── index.html          # Page d'accueil principale
+├── privacy.html        # Règles de confidentialité
+├── terms.html          # Conditions d'utilisation
+├── vercel.json         # Configuration de déploiement Vercel
+├── README.md           # Documentation du projet
+└── assets/             # Actifs statiques (logos, images)
 ```
 
-## 🎯 Target Audience
+## 🎯 Public Cible
 
-### Primary Users
-- **Fashion Enthusiasts**: Individuals seeking custom African fashion
-- **Tailors/Designers**: Artisans looking to expand their client base
-- **Fashion Businesses**: Boutiques and fashion retailers
-
-### Geographic Focus
-- Primary: Nigeria, Ghana, Kenya, South Africa
-- Secondary: Diaspora communities worldwide
-- Global: African fashion enthusiasts internationally
-
-## 📈 Business Impact
-
-### User Acquisition
-- Professional design builds trust and credibility
-- Clear value propositions drive conversions
-- Mobile-first approach captures app downloads
-
-### Brand Building
-- Consistent branding across all touchpoints
-- Professional appearance attracts quality tailors
-- Social proof through testimonials and ratings
-
-## 🔒 Security & Privacy
-
-- **HTTPS**: Secure connection required
-- **Privacy Policy**: Comprehensive data protection information
-- **Cookie Policy**: Transparent cookie usage
-- **GDPR Compliant**: European data protection standards
-
-## 🌟 Future Enhancements
-
-### Planned Features
-- Newsletter signup integration
-- Contact form functionality
-- FAQ accordion section
-- Advanced analytics tracking
-- A/B testing capabilities
-
-### Performance Optimizations
-- Image optimization and CDN integration
-- Critical CSS inlining
-- Service worker for offline support
-- Progressive Web App (PWA) features
+- **Passionnés de mode** : Particuliers recherchant de la mode africaine sur mesure.
+- **Tailleurs/Designers** : Artisans cherchant à élargir leur base de clients.
+- **Marchés** : Mali, Afrique de l'Ouest, et la diaspora mondiale.
 
 ## 📞 Support
 
-For questions about the landing page or Faani platform:
-- **Email**: support@faani.com
-- **Phone**: +234 800 123 4567
-- **Social Media**: Links available in footer
+Pour toute question sur la plateforme Faani :
+- **Email** : support@faani.com
+- **Téléphone** : +223 93 73 44 81
+
 
 ---
 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Règles de confidentialité - Faani</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        * { font-family: 'Poppins', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #F3755F 0%, #E85D4C 100%); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="flex items-center space-x-2">
+                    <img src="assets/logo.png" alt="Faani Logo" class="w-8 h-8">
+                    <span class="text-xl font-bold">Faani</span>
+                </a>
+                <a href="index.html" class="text-gray-700 hover:text-[#F3755F] transition">Retour à l'accueil</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="gradient-bg py-16 text-white text-center">
+        <h1 class="text-4xl font-bold mb-4">Règles de Confidentialité</h1>
+        <p class="text-xl opacity-90">Dernière mise à jour : 8 Mai 2026</p>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 max-w-4xl">
+        <section class="bg-white rounded-2xl shadow-xl p-8 mb-8">
+            <h2 class="text-2xl font-semibold mb-4 text-[#F3755F]">1. Introduction</h2>
+            <p class="mb-4">Chez Faani, nous accordons une importance capitale à la protection de vos données personnelles. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre application mobile et notre site web.</p>
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-xl p-8 mb-8">
+            <h2 class="text-2xl font-semibold mb-4 text-[#F3755F]">2. Collecte des Données</h2>
+            <p class="mb-4">Nous collectons les informations suivantes pour assurer le bon fonctionnement de nos services :</p>
+            <ul class="list-disc ml-6 space-y-2">
+                <li><strong>Informations de compte :</strong> Nom, adresse e-mail, numéro de téléphone (via Firebase Authentication).</li>
+                <li><strong>Profil Tailleur :</strong> Photos de vos créations, description de votre expertise, localisation.</li>
+                <li><strong>Mesures corporelles :</strong> Pour les clients, nous stockons les mesures nécessaires à la confection de vêtements (tour de poitrine, taille, hanches, etc.).</li>
+                <li><strong>Photos et images :</strong> Images téléchargées par les tailleurs pour leur portfolio ou par les clients pour illustrer leurs commandes.</li>
+            </ul>
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-xl p-8 mb-8">
+            <h2 class="text-2xl font-semibold mb-4 text-[#F3755F]">3. Utilisation des Données</h2>
+            <p class="mb-4">Vos données sont utilisées pour :</p>
+            <ul class="list-disc ml-6 space-y-2">
+                <li>Faciliter la mise en relation entre tailleurs et clients.</li>
+                <li>Gérer les commandes et le suivi de production.</li>
+                <li>Assurer la précision des confections grâce aux mesures enregistrées.</li>
+                <li>Améliorer nos services et personnaliser votre expérience.</li>
+                <li>Assurer la sécurité de votre compte.</li>
+            </ul>
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-xl p-8 mb-8">
+            <h2 class="text-2xl font-semibold mb-4 text-[#F3755F]">4. Partage des Données</h2>
+            <p class="mb-4">Nous ne vendons jamais vos données personnelles. Elles sont partagées uniquement avec :</p>
+            <ul class="list-disc ml-6 space-y-2">
+                <li><strong>Les Tailleurs :</strong> Vos mesures et informations de commande sont partagées avec le tailleur que vous avez choisi.</li>
+                <li><strong>Firebase/Google :</strong> Pour l'authentification et le stockage sécurisé des données.</li>
+                <li><strong>Autorités légales :</strong> Si la loi l'exige.</li>
+            </ul>
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-xl p-8 mb-8">
+            <h2 class="text-2xl font-semibold mb-4 text-[#F3755F]">5. Sécurité</h2>
+            <p>Nous utilisons des mesures de sécurité conformes aux standards de l'industrie, notamment le chiffrement via Firebase, pour protéger vos données contre tout accès non autorisé.</p>
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-xl p-8 mb-8">
+            <h2 class="text-2xl font-semibold mb-4 text-[#F3755F]">6. Vos Droits</h2>
+            <p>Vous avez le droit d'accéder à vos données, de les rectifier ou de demander leur suppression à tout moment via les paramètres de l'application ou en nous contactant directement à support@faani.com.</p>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-8 text-center">
+        <p>&copy; 2026 Faani. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
